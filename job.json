@@ -1,0 +1,31 @@
+{
+  "name": "airflow_setup_job",
+  "task_folder": "multiversion",
+  "tasks": [
+    {
+      "version": "3.9",
+      "task_file": "py3_9/python_taska.py",
+      "executable_path": "D:\\python\\python.exe"
+    },
+    {
+      "version": "3.11",
+      "task_file": "py3_11/python_taska.py",
+      "executable_path": "D:\\python\\python.exe"
+    },
+    {
+      "version": "3.11",
+      "task_file": "python_taskd.py",
+      "executable_path": "D:\\python\\python.exe"
+    },
+    {
+      "version": "3.11",
+      "task_file": "python_taskb.py",
+      "executable_path": "D:\\python\\python.exe"
+    },
+    {
+        "version": "3.11",
+        "task_file": "python_taskb222.py",
+        "executable_path": "D:\\python\\python.exe"
+      }
+  ]
+}
